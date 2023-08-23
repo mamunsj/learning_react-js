@@ -1,17 +1,6 @@
-// Customs component
+// Quiz!
 
-function Page() {
-  return (
-    <ol>
-      <li>It is mostly used</li>
-      <li>It is mostly used</li>
-      <li>It is mostly used</li>
-      <li>It is mostly used</li>
-      <li>It is mostly used</li>
-    </ol>
-  );
-}
+// 1. What is a React component?
 
-// ReactDOM.render(Page(), document.getElementById("root"));
-ReactDOM.render(<Page />, document.getElementById("root"));
-console.log(444);
+// React component is a reusable piece of Ul that encapsulates a specific functionality or piece of content. it is the fundamental building block in react application
+// A function that returns react elements;
