@@ -1,0 +1,29 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  /* margin-top: 50px;
+  background: #ccb7b7;
+  padding: 20px; */
+}
+/* 
+ol {
+  padding: 2rem;
+  text-align: center;
+  background: dodgerblue;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: white;
+} */
+
+.header {
+  text-align: center;
+  color: rgb(10, 9, 9);
+  font-size: xx-large;
+  font-weight: bold;
+}
