@@ -1,9 +1,3 @@
-// const BlogsList = (pops) => {
-//   const blogs = pops.blogs;
-//   const title = pops.title;
-
-// But using destructuring method is easy;
-
 const BlogsList = ({ blogs, title, handleDelete }) => {
   return (
     <div className="blog-list">

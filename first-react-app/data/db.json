@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "We do not use it",
+      "author": "Mario",
+      "id": 1
+    },
+    {
+      "title": "Opening a party",
+      "body": "We will go to party tomorrow",
+      "author": "Ali bro",
+      "id": 2
+    },
+    {
+      "title": "My favourite Websites",
+      "body": "Lorem ispum.....",
+      "author": "Mamun Ujjal",
+      "id": 3
+    },
+    {
+      "title": "My favourite Pet",
+      "body": "Lorem ispum.....",
+      "author": "Tareq Monwer",
+      "id": 4
+    },
+    {
+      "title": "My favourite Game",
+      "body": "Lorem ispum.....",
+      "author": "Mamun Ujjal",
+      "id": 5
+    }
+  ]
+}
