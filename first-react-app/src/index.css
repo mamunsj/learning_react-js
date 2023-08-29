@@ -1,13 +1,74 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  min-height: 100vh;
+  background: #d6d6d6;
+}
+
+.navbar {
+  display: flex;
+  max-width: 600px;
+  padding: 20px;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid rgb(187, 179, 179);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar a {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.content button {
+  padding: 10px 20px;
+  background: darkcyan;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid whitesmoke;
+}
+.blog-preview > * {
+  padding: 5px;
+}
+
+.blog-preview h2 {
+  color: #f1356d;
+}
+
+.blog-preview p {
+  font-style: italic;
+  font-size: 12px;
+  color: rgb(18, 61, 61);
 }
