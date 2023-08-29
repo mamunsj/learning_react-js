@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BlogsList from "./Blogs";
 
 const Home = () => {
@@ -30,6 +30,13 @@ const Home = () => {
     setBlogs(newBlog);
     console.log(newBlog);
   };
+
+  // useEffect only run after initial render and in every re-render means when the state is changed; we use dependencies separated by comma to explicity says what to do;
+
+  useEffect(() => {
+    console.log("useEffect ran");
+  }, [name, blogs]);
+
   return (
     <div className="home">
       <BlogsList
@@ -37,6 +44,14 @@ const Home = () => {
         title="All the Blogs Post"
         handleDelete={handleDelete}
       />
+      <button
+        onClick={() => {
+          setName("Mamun Sj");
+        }}
+      >
+        Click me{" "}
+      </button>
+      <h2>{name}</h2>
     </div>
   );
 };
