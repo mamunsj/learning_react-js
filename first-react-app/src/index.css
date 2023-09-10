@@ -57,7 +57,11 @@ body {
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0px;
-  border-bottom: 1px solid whitesmoke;
+  /* transition: 0.4s linear; */
+}
+
+.blog-preview:hover {
+  outline: 2px solid rgb(172, 172, 172);
 }
 .blog-preview > * {
   padding: 5px;
@@ -71,4 +75,56 @@ body {
   font-style: italic;
   font-size: 12px;
   color: rgb(18, 61, 61);
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  padding: 12px 0px;
+  color: #1f1c03;
+}
+.blog-details p {
+  padding: 10px 0px 20px 0;
+  color: rgb(235, 36, 36);
+}
+
+.create {
+  max-width: 400px;
+  margin: auto;
+}
+
+.create h2 {
+  margin-bottom: 30px;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #b32c55;
+}
+
+.create .btn {
+  display: block;
+  margin: 20px auto;
+}
+
+.not-found a {
+  /* text-decoration: none; */
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  /* font-weight: bold; */
 }
